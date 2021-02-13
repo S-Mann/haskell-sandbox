@@ -4,6 +4,7 @@
 - You can build the app using
 
 ```shell
-$ stack build --copy-compiler-tool phoityne-vscode
+$ stack install phoityne-vscode haskell-dap ghci-dap haskell-debug-adapter 
+$ stack build
 ```
 - This gives you *debugging* in *vscode* with `haskell`

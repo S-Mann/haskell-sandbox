@@ -21,10 +21,6 @@ description: Please see the README on GitHub at <https://github.com/githubuser/h
 
 dependencies:
   - base >= 4.7 && < 5
-  - phoityne-vscode
-  - haskell-dap
-  - ghci-dap
-  - haskell-debug-adapter
 
 library:
   source-dirs: src

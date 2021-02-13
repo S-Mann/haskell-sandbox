@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 7b503a45ee793ef2a9cd4921adc365b43151521e3c24f95f6e71c892aee37a26
+-- hash: c6bc3105caf2c0f1c9e60d18fa8308a54d95d3effcef16c762bdccb5f0d2b811
 
 name:           haskell-sandbox
 version:        0.1.0.0
@@ -34,10 +34,6 @@ library
       src
   build-depends:
       base >=4.7 && <5
-    , ghci-dap
-    , haskell-dap
-    , haskell-debug-adapter
-    , phoityne-vscode
   default-language: Haskell2010
 
 executable haskell-sandbox-exe
@@ -49,11 +45,7 @@ executable haskell-sandbox-exe
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base >=4.7 && <5
-    , ghci-dap
-    , haskell-dap
-    , haskell-debug-adapter
     , haskell-sandbox
-    , phoityne-vscode
   default-language: Haskell2010
 
 test-suite haskell-sandbox-test
@@ -66,9 +58,5 @@ test-suite haskell-sandbox-test
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base >=4.7 && <5
-    , ghci-dap
-    , haskell-dap
-    , haskell-debug-adapter
     , haskell-sandbox
-    , phoityne-vscode
   default-language: Haskell2010

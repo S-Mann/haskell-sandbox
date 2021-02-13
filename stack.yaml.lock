@@ -3,35 +3,7 @@
 # For more information, please see the documentation at:
 #   https://docs.haskellstack.org/en/stable/lock_files
 
-packages:
-- completed:
-    hackage: ghci-dap-0.0.15.0@sha256:e9ac8110590ddd00cbee62117a23ac7be6b156023d7c282eca90b36c13497583,3115
-    pantry-tree:
-      size: 2199
-      sha256: f73eb2fa3d84cbd0616612c66716cac1d0b46c73ce0d0ba8b4a769f6d8820d0f
-  original:
-    hackage: ghci-dap-0.0.15.0@sha256:e9ac8110590ddd00cbee62117a23ac7be6b156023d7c282eca90b36c13497583,3115
-- completed:
-    hackage: haskell-dap-0.0.15.0@sha256:d58ec48d5f23c13675ba6a6ceb75f9ad9c0b0e90031e15cf7cd227478bad5fa5,945
-    pantry-tree:
-      size: 315
-      sha256: 4126d8e2ea49a4acbd30cad46e66068167a1a599032c0ddd8fde607f703c5a23
-  original:
-    hackage: haskell-dap-0.0.15.0@sha256:d58ec48d5f23c13675ba6a6ceb75f9ad9c0b0e90031e15cf7cd227478bad5fa5,945
-- completed:
-    hackage: haskell-debug-adapter-0.0.34.0@sha256:8ac49d8f2cebe66710985468fd5390ef0f98bd6ee89b141840f11140a732e383,6468
-    pantry-tree:
-      size: 2982
-      sha256: 83f05f87fb3e9ac07ba6a618dfd8c7f817455e0884fab15002cd6ec57117c176
-  original:
-    hackage: haskell-debug-adapter-0.0.34.0@sha256:8ac49d8f2cebe66710985468fd5390ef0f98bd6ee89b141840f11140a732e383,6468
-- completed:
-    hackage: phoityne-vscode-0.0.28.0@sha256:b7784bbfca3479d38b462b4b672ad2a3894617dd691fe17ecd5fa9a55c020503,6132
-    pantry-tree:
-      size: 9310
-      sha256: af9a7a7dd5bacf8ac8ecccdc76972edd592186b1435585a8959788e0aca39c6d
-  original:
-    hackage: phoityne-vscode-0.0.28.0@sha256:b7784bbfca3479d38b462b4b672ad2a3894617dd691fe17ecd5fa9a55c020503,6132
+packages: []
 snapshots:
 - completed:
     size: 563099
