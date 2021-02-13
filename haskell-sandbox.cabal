@@ -1,0 +1,74 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.33.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 7b503a45ee793ef2a9cd4921adc365b43151521e3c24f95f6e71c892aee37a26
+
+name:           haskell-sandbox
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/githubuser/haskell-sandbox#readme>
+homepage:       https://github.com/githubuser/haskell-sandbox#readme
+bug-reports:    https://github.com/githubuser/haskell-sandbox/issues
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2021 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    ChangeLog.md
+
+source-repository head
+  type: git
+  location: https://github.com/githubuser/haskell-sandbox
+
+library
+  exposed-modules:
+      Lib
+  other-modules:
+      Paths_haskell_sandbox
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+    , ghci-dap
+    , haskell-dap
+    , haskell-debug-adapter
+    , phoityne-vscode
+  default-language: Haskell2010
+
+executable haskell-sandbox-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_haskell_sandbox
+  hs-source-dirs:
+      app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , ghci-dap
+    , haskell-dap
+    , haskell-debug-adapter
+    , haskell-sandbox
+    , phoityne-vscode
+  default-language: Haskell2010
+
+test-suite haskell-sandbox-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_haskell_sandbox
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , ghci-dap
+    , haskell-dap
+    , haskell-debug-adapter
+    , haskell-sandbox
+    , phoityne-vscode
+  default-language: Haskell2010
